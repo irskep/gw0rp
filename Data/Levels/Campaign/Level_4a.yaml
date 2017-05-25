@@ -1,0 +1,137 @@
+- !Env
+  background_image: level_3f
+  height: 1600
+  player_angle: 1.5700000000000001
+  player_config: enhanced_3
+  player_x: 1674
+  player_y: 620
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 2800
+- !Line {collides: false, obj_id: 1, visible: false, x1: 14, x2: 13, y1: 322, y2: 94}
+- !Line {collides: true, obj_id: 3, visible: false, x1: -2, x2: 458, y1: 315, y2: 315}
+- !Line {collides: true, obj_id: 4, visible: false, x1: 458, x2: 458, y1: 315, y2: 1214}
+- !Line {collides: true, obj_id: 5, visible: false, x1: 458, x2: -2, y1: 1214, y2: 1214}
+- !Line {collides: true, obj_id: 6, visible: false, x1: 698, x2: 699, y1: 987, y2: 1334}
+- !Line {collides: true, obj_id: 7, visible: false, x1: 820, x2: 819, y1: 1306, y2: 982}
+- !Line {collides: true, obj_id: 8, visible: false, x1: 819, x2: 698, y1: 984, y2: 985}
+- !Line {collides: true, obj_id: 9, visible: false, x1: 817, x2: 700, y1: 835, y2: 834}
+- !Line {collides: true, obj_id: 10, visible: false, x1: 700, x2: 700, y1: 834, y2: 672}
+- !Line {collides: true, obj_id: 11, visible: false, x1: 700, x2: 815, y1: 672, y2: 672}
+- !Line {collides: true, obj_id: 12, visible: false, x1: 815, x2: 815, y1: 672, y2: 835}
+- !Line {collides: true, obj_id: 13, visible: false, x1: 699, x2: 818, y1: 521, y2: 521}
+- !Line {collides: true, obj_id: 14, visible: false, x1: 820, x2: 820, y1: 118, y2: 522}
+- !Line {collides: true, obj_id: 15, visible: false, x1: 698, x2: 699, y1: 522, y2: 120}
+- !Line {collides: true, obj_id: 16, visible: false, x1: 699, x2: 694, y1: 120, y2: 97}
+- !Line {collides: true, obj_id: 17, visible: false, x1: 694, x2: 672, y1: 98, y2: 80}
+- !Line {collides: true, obj_id: 18, visible: false, x1: 818, x2: 824, y1: 123, y2: 95}
+- !Line {collides: true, obj_id: 19, visible: false, x1: 824, x2: 827, y1: 95, y2: 96}
+- !Line {collides: true, obj_id: 20, visible: false, x1: 827, x2: 847, y1: 96, y2: 77}
+- !Circle {collides: true, obj_id: 21, radius: 16.124515496597098, visible: false,
+  x: 677, y: 642}
+- !Circle {collides: true, obj_id: 22, radius: 14.560219778561036, visible: false,
+  x: 674, y: 595}
+- !Circle {collides: true, obj_id: 23, radius: 17.029386365926403, visible: false,
+  x: 679, y: 551}
+- !Circle {collides: true, obj_id: 24, radius: 18.439088914585774, visible: false,
+  x: 516, y: 1042}
+- !Circle {collides: true, obj_id: 25, radius: 17.720045146669349, visible: false,
+  x: 474, y: 1041}
+- !Circle {collides: true, obj_id: 26, radius: 15.524174696260024, visible: false,
+  x: 571, y: 1068}
+- !Circle {collides: true, obj_id: 27, radius: 16.763054614240211, visible: false,
+  x: 635, y: 1080}
+- !Circle {collides: true, obj_id: 28, radius: 20.09975124224178, visible: false,
+  x: 655, y: 1114}
+- !Line {collides: true, obj_id: 29, visible: false, x1: 484, x2: 538, y1: 1056, y2: 1075}
+- !Line {collides: true, obj_id: 30, visible: false, x1: 538, x2: 538, y1: 1075, y2: 1065}
+- !Line {collides: true, obj_id: 31, visible: false, x1: 538, x2: 593, y1: 1065, y2: 1086}
+- !Line {collides: true, obj_id: 32, visible: false, x1: 593, x2: 589, y1: 1086, y2: 1095}
+- !Line {collides: true, obj_id: 33, visible: false, x1: 589, x2: 674, y1: 1095, y2: 1127}
+- !Line {collides: true, obj_id: 34, visible: false, x1: 820, x2: 828, y1: 1308, y2: 1327}
+- !Line {collides: true, obj_id: 35, visible: false, x1: 828, x2: 844, y1: 1327, y2: 1338}
+- !Line {collides: true, obj_id: 36, visible: false, x1: 844, x2: 1184, y1: 1338,
+  y2: 1339}
+- !Line {collides: true, obj_id: 37, visible: false, x1: 845, x2: 858, y1: 80, y2: 74}
+- !Line {collides: true, obj_id: 38, visible: false, x1: 858, x2: 2800, y1: 74, y2: 74}
+- !Circle {collides: true, obj_id: 39, radius: 15.811388300841896, visible: false,
+  x: 2590, y: 113}
+- !Circle {collides: true, obj_id: 40, radius: 23.086792761230392, visible: false,
+  x: 2593, y: 145}
+- !Circle {collides: true, obj_id: 41, radius: 14.317821063276353, visible: false,
+  x: 2571, y: 148}
+- !Circle {collides: true, obj_id: 42, radius: 12.041594578792296, visible: false,
+  x: 2587, y: 174}
+- !Circle {collides: true, obj_id: 43, radius: 14.0, visible: false, x: 2589, y: 207}
+- !Circle {collides: true, obj_id: 44, radius: 10.770329614269007, visible: false,
+  x: 2593, y: 237}
+- !Circle {collides: true, obj_id: 45, radius: 17.0, visible: false, x: 2605, y: 273}
+- !Line {collides: true, obj_id: 47, visible: false, x1: 2446, x2: 2446, y1: 916,
+  y2: 285}
+- !Line {collides: true, obj_id: 46, visible: false, x1: 2801, x2: 2448, y1: 283,
+  y2: 282}
+- !Line {collides: true, obj_id: 48, visible: false, x1: 2446, x2: 2232, y1: 917,
+  y2: 917}
+- !Line {collides: true, obj_id: 49, visible: false, x1: 2232, x2: 2223, y1: 917,
+  y2: 924}
+- !Line {collides: true, obj_id: 50, visible: false, x1: 2223, x2: 2225, y1: 924,
+  y2: 1442}
+- !Line {collides: true, obj_id: 51, visible: false, x1: 2225, x2: 2233, y1: 1442,
+  y2: 1450}
+- !Line {collides: true, obj_id: 52, visible: false, x1: 2233, x2: 2243, y1: 1450,
+  y2: 1450}
+- !Line {collides: true, obj_id: 53, visible: false, x1: 2242, x2: 2242, y1: 1450,
+  y2: 1462}
+- !Line {collides: true, obj_id: 54, visible: false, x1: 2242, x2: 2234, y1: 1462,
+  y2: 1475}
+- !Line {collides: true, obj_id: 55, visible: false, x1: 2234, x2: 2225, y1: 1475,
+  y2: 1478}
+- !Line {collides: true, obj_id: 56, visible: false, x1: 2225, x2: 1915, y1: 1478,
+  y2: 1477}
+- !Line {collides: false, obj_id: 2, visible: false, x1: 1450, x2: 1700, y1: 1350,
+  y2: 1350}
+- !Line {collides: true, obj_id: 57, visible: false, x1: 1916, x2: 1916, y1: 1478,
+  y2: 1346}
+- !Line {collides: true, obj_id: 58, visible: false, x1: 1916, x2: 1551, y1: 1346,
+  y2: 1381}
+- !Line {collides: true, obj_id: 59, visible: false, x1: 1551, x2: 1183, y1: 1381,
+  y2: 1349}
+- !Circle {collides: true, obj_id: 60, radius: 13.0, visible: false, x: 1199, y: 1334}
+- !Circle {collides: true, obj_id: 61, radius: 12.206555615733702, visible: false,
+  x: 1258, y: 1333}
+- !Circle {collides: true, obj_id: 62, radius: 13.341664064126334, visible: false,
+  x: 1315, y: 1334}
+- !Circle {collides: true, obj_id: 63, radius: 12.041594578792296, visible: false,
+  x: 1373, y: 1331}
+- !Circle {collides: true, obj_id: 64, radius: 12.165525060596439, visible: false,
+  x: 1431, y: 1332}
+- !Circle {collides: true, obj_id: 65, radius: 13.038404810405298, visible: false,
+  x: 1721, y: 1332}
+- !Circle {collides: true, obj_id: 66, radius: 12.369316876852981, visible: false,
+  x: 1780, y: 1332}
+- !Circle {collides: true, obj_id: 67, radius: 11.045361017187261, visible: false,
+  x: 1838, y: 1331}
+- !Circle {collides: true, obj_id: 68, radius: 11.0, visible: false, x: 1895, y: 1330}
+- !Line {collides: true, obj_id: 74, visible: false, x1: 830, x2: 830, y1: 1121, y2: 1052}
+- !Line {collides: true, obj_id: 75, visible: false, x1: 830, x2: 900, y1: 1052, y2: 1052}
+- !Line {collides: true, obj_id: 76, visible: false, x1: 900, x2: 900, y1: 1052, y2: 1121}
+- !Line {collides: true, obj_id: 77, visible: false, x1: 900, x2: 830, y1: 1121, y2: 1121}
+- !Line {collides: true, obj_id: 78, visible: false, x1: 830, x2: 830, y1: 761, y2: 690}
+- !Line {collides: true, obj_id: 79, visible: false, x1: 830, x2: 900, y1: 690, y2: 690}
+- !Line {collides: true, obj_id: 80, visible: false, x1: 900, x2: 900, y1: 690, y2: 761}
+- !Line {collides: true, obj_id: 81, visible: false, x1: 900, x2: 830, y1: 761, y2: 761}
+- !Line {collides: true, obj_id: 82, visible: false, x1: 672, x2: 655, y1: 80, y2: 73}
+- !Line {collides: true, obj_id: 83, visible: false, x1: -5, x2: 687, y1: 73, y2: 73}
+- !Decal {img_name: Tower, obj_id: 69, overhead: false, rotation: 90.0, scale: 1.0,
+  x: 865, y: 1086}
+- !Decal {img_name: Tower, obj_id: 70, overhead: false, rotation: 90.0, scale: 1.0,
+  x: 865, y: 726}
+- !ImageDoor {key: 5, obj_id: 71, rotation: 89.691130865248098, x: 878, y: 1058}
+- !RapidTurret1 {base_rotation: 90.0, base_type: Tank, obj_id: 84, rotation: 90.0,
+  x: 1263, y: 1220}
+- !RapidTurret1 {base_rotation: 88.531199285614179, base_type: Tank, obj_id: 85, rotation: 88.531199285614179,
+  x: 1833, y: 1214}
+- !RapidTurret1 {base_rotation: 0, base_type: MetalTower, obj_id: 72, rotation: 0,
+  x: 909, y: 471}
+- !Decal {img_name: Lander, obj_id: 73, overhead: false, rotation: 0.0, scale: 1.0,
+  x: 1867, y: 531}
+- !FreeToxin {obj_id: 86, rotation: 0, x: 1832, y: 684}

@@ -1,0 +1,36 @@
+- !Env
+  background_image: level_3a
+  height: 1500
+  player_angle: 0
+  player_config: enhanced_1
+  player_x: 176
+  player_y: 206
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 640
+- !Circle {collides: true, obj_id: 1, radius: 23.853720883753127, visible: false,
+  x: 14, y: 343}
+- !Line {collides: true, obj_id: 5, visible: false, x1: 25, x2: 220, y1: 344, y2: 344}
+- !Line {collides: true, obj_id: 9, visible: false, x1: 747, x2: 462, y1: 330, y2: 330}
+- !Line {collides: true, obj_id: 10, visible: false, x1: 643, x2: -95, y1: 73, y2: 71}
+- !Line {collides: true, obj_id: 11, visible: false, x1: 598, x2: 579, y1: 1442, y2: 1392}
+- !Line {collides: true, obj_id: 12, visible: false, x1: 579, x2: 570, y1: 1392, y2: 1334}
+- !Line {collides: true, obj_id: 13, visible: false, x1: 570, x2: 574, y1: 1334, y2: 1278}
+- !Line {collides: true, obj_id: 14, visible: false, x1: 574, x2: 570, y1: 1278, y2: 1222}
+- !Line {collides: true, obj_id: 18, visible: false, x1: 694, x2: 462, y1: 1230, y2: 1230}
+- !Line {collides: true, obj_id: 2, visible: false, x1: 223, x2: 71, y1: 1045, y2: 1055}
+- !Line {collides: true, obj_id: 3, visible: false, x1: 164, x2: 164, y1: 1320, y2: 1010}
+- !Line {collides: true, obj_id: 8, visible: false, x1: -13, x2: 164, y1: 1320, y2: 1320}
+- !Line {collides: true, obj_id: 15, visible: false, x1: 409, x2: -42, y1: 1445, y2: 1444}
+- !Line {collides: true, obj_id: 16, visible: false, x1: 136, x2: 116, y1: 1444, y2: 1369}
+- !Line {collides: true, obj_id: 17, visible: false, x1: 115, x2: 150, y1: 1392, y2: 1292}
+- !Line {collides: true, obj_id: 19, visible: false, x1: 223, x2: 220, y1: 1045, y2: 344}
+- !Line {collides: false, obj_id: 20, visible: false, x1: 375, x2: 617, y1: 1467,
+  y2: 1475}
+- !Line {collides: true, obj_id: 4, visible: false, x1: 460, x2: 462, y1: 592, y2: 330}
+- !Line {collides: true, obj_id: 6, visible: false, x1: 462, x2: 462, y1: 1229, y2: 980}
+- !Line {collides: false, obj_id: 21, visible: false, x1: 620, x2: 627, y1: 353, y2: 55}
+- !Line {collides: true, obj_id: 7, visible: false, x1: 479, x2: 479, y1: 979, y2: 587}
+- !Line {collides: true, obj_id: 23, visible: false, x1: 479, x2: 460, y1: 587, y2: 588}
+- !Line {collides: true, obj_id: 24, visible: false, x1: 480, x2: 464, y1: 980, y2: 980}
+- !RapidTurret1 {base_rotation: 49.184916125118413, base_type: Scaffold, obj_id: 22,
+  rotation: 49.184916125118413, x: 243, y: 1365}

@@ -1,0 +1,110 @@
+- !Env
+  background_image: level_4e2
+  height: 1500
+  player_angle: 1.5700000000000001
+  player_config: normal
+  player_x: 140
+  player_y: 749
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 1500
+- !Line {collides: true, obj_id: 1, visible: false, x1: 632, x2: 458, y1: 118, y2: 179}
+- !Line {collides: true, obj_id: 2, visible: false, x1: 458, x2: 295, y1: 179, y2: 296}
+- !Line {collides: true, obj_id: 3, visible: false, x1: 295, x2: 171, y1: 296, y2: 478}
+- !Line {collides: true, obj_id: 6, visible: false, x1: 121, x2: 188, y1: 867, y2: 1061}
+- !Line {collides: true, obj_id: 7, visible: false, x1: 187, x2: 296, y1: 1060, y2: 1201}
+- !Line {collides: true, obj_id: 8, visible: false, x1: 296, x2: 412, y1: 1201, y2: 1295}
+- !Line {collides: true, obj_id: 9, visible: false, x1: 412, x2: 565, y1: 1295, y2: 1364}
+- !Line {collides: true, obj_id: 10, visible: false, x1: 565, x2: 717, y1: 1364, y2: 1389}
+- !Line {collides: true, obj_id: 11, visible: false, x1: 717, x2: 869, y1: 1389, y2: 1380}
+- !Line {collides: true, obj_id: 12, visible: false, x1: 869, x2: 1004, y1: 1380,
+  y2: 1341}
+- !Line {collides: true, obj_id: 13, visible: false, x1: 1003, x2: 1142, y1: 1342,
+  y2: 1255}
+- !Line {collides: true, obj_id: 14, visible: false, x1: 1141, x2: 1243, y1: 1255,
+  y2: 1157}
+- !Line {collides: true, obj_id: 15, visible: false, x1: 1243, x2: 1317, y1: 1157,
+  y2: 1048}
+- !Line {collides: true, obj_id: 16, visible: false, x1: 1317, x2: 1355, y1: 1048,
+  y2: 958}
+- !Line {collides: true, obj_id: 17, visible: false, x1: 1355, x2: 1380, y1: 958,
+  y2: 871}
+- !Line {collides: true, obj_id: 20, visible: false, x1: 1378, x2: 1346, y1: 633,
+  y2: 512}
+- !Line {collides: true, obj_id: 21, visible: false, x1: 1346, x2: 1271, y1: 512,
+  y2: 373}
+- !Line {collides: true, obj_id: 22, visible: false, x1: 1271, x2: 1157, y1: 373,
+  y2: 255}
+- !Line {collides: true, obj_id: 23, visible: false, x1: 1157, x2: 1035, y1: 256,
+  y2: 177}
+- !Line {collides: true, obj_id: 24, visible: false, x1: 1034, x2: 931, y1: 178, y2: 135}
+- !Line {collides: true, obj_id: 25, visible: false, x1: 931, x2: 869, y1: 135, y2: 119}
+- !Line {collides: true, obj_id: 28, visible: false, x1: 1139, x2: 1139, y1: 712,
+  y2: 809}
+- !Line {collides: true, obj_id: 29, visible: false, x1: 1139, x2: 851, y1: 809, y2: 809}
+- !Line {collides: true, obj_id: 30, visible: false, x1: 851, x2: 851, y1: 809, y2: 712}
+- !Line {collides: true, obj_id: 31, visible: false, x1: 851, x2: 1139, y1: 712, y2: 712}
+- !Line {collides: true, obj_id: 36, visible: false, x1: 647, x2: 647, y1: 713, y2: 811}
+- !Line {collides: true, obj_id: 37, visible: false, x1: 647, x2: 363, y1: 811, y2: 811}
+- !Line {collides: true, obj_id: 38, visible: false, x1: 363, x2: 363, y1: 811, y2: 713}
+- !Line {collides: true, obj_id: 39, visible: false, x1: 363, x2: 647, y1: 713, y2: 713}
+- !Line {collides: true, obj_id: 40, visible: false, x1: 701, x2: 701, y1: 1128, y2: 855}
+- !Line {collides: true, obj_id: 41, visible: false, x1: 701, x2: 797, y1: 855, y2: 855}
+- !Line {collides: true, obj_id: 42, visible: false, x1: 797, x2: 797, y1: 855, y2: 1128}
+- !Line {collides: true, obj_id: 43, visible: false, x1: 797, x2: 701, y1: 1128, y2: 1128}
+- !Line {collides: true, obj_id: 44, visible: false, x1: 627, x2: 447, y1: 811, y2: 986}
+- !Line {collides: true, obj_id: 45, visible: false, x1: 447, x2: 507, y1: 986, y2: 1050}
+- !Line {collides: true, obj_id: 46, visible: false, x1: 507, x2: 517, y1: 1050, y2: 1051}
+- !Line {collides: true, obj_id: 47, visible: false, x1: 517, x2: 707, y1: 1051, y2: 873}
+- !Line {collides: true, obj_id: 48, visible: false, x1: 795, x2: 984, y1: 869, y2: 1054}
+- !Line {collides: true, obj_id: 49, visible: false, x1: 984, x2: 1029, y1: 1054,
+  y2: 1020}
+- !Line {collides: true, obj_id: 50, visible: false, x1: 1029, x2: 1054, y1: 1020,
+  y2: 988}
+- !Line {collides: true, obj_id: 51, visible: false, x1: 1055, x2: 866, y1: 988, y2: 804}
+- !Line {collides: true, obj_id: 57, visible: false, x1: 633, x2: 447, y1: 715, y2: 536}
+- !Line {collides: true, obj_id: 58, visible: false, x1: 447, x2: 447, y1: 536, y2: 515}
+- !Line {collides: true, obj_id: 59, visible: false, x1: 446, x2: 503, y1: 514, y2: 461}
+- !Line {collides: true, obj_id: 60, visible: false, x1: 503, x2: 517, y1: 461, y2: 465}
+- !Line {collides: true, obj_id: 61, visible: false, x1: 517, x2: 706, y1: 465, y2: 651}
+- !Line {collides: true, obj_id: 18, visible: false, x1: 629, x2: 874, y1: 121, y2: 119}
+- !Line {collides: true, obj_id: 19, visible: false, x1: 121, x2: -35, y1: 629, y2: 633}
+- !Line {collides: true, obj_id: 26, visible: false, x1: 120, x2: 170, y1: 628, y2: 478}
+- !Line {collides: true, obj_id: 27, visible: false, x1: 117, x2: -48, y1: 870, y2: 874}
+- !Line {collides: true, obj_id: 62, visible: false, x1: 707, x2: 646, y1: 651, y2: 714}
+- !Line {collides: true, obj_id: 63, visible: false, x1: 646, x2: 714, y1: 796, y2: 863}
+- !Line {collides: true, obj_id: 64, visible: false, x1: 791, x2: 866, y1: 856, y2: 783}
+- !Line {collides: true, obj_id: 65, visible: false, x1: 1382, x2: 1381, y1: 871,
+  y2: 636}
+- !Line {collides: true, obj_id: 4, visible: false, x1: 619, x2: 677, y1: 994, y2: 996}
+- !Line {collides: true, obj_id: 5, visible: false, x1: 1034, x2: 970, y1: 903, y2: 899}
+- !Line {collides: true, obj_id: 32, visible: false, x1: 1031, x2: 1027, y1: 900,
+  y2: 875}
+- !Line {collides: true, obj_id: 33, visible: false, x1: 1027, x2: 973, y1: 875, y2: 877}
+- !Line {collides: true, obj_id: 34, visible: false, x1: 973, x2: 958, y1: 877, y2: 906}
+- !Line {collides: true, obj_id: 35, visible: false, x1: 853, x2: 870, y1: 714, y2: 693}
+- !Line {collides: true, obj_id: 52, visible: false, x1: 870, x2: 908, y1: 691, y2: 693}
+- !Line {collides: true, obj_id: 53, visible: false, x1: 908, x2: 925, y1: 693, y2: 729}
+- !Line {collides: false, obj_id: 54, visible: false, x1: 634, x2: 854, y1: 749, y2: 842}
+- !Line {collides: false, obj_id: 55, visible: false, x1: 13, x2: 17, y1: 897, y2: 590}
+- !RapidTurret1 {base_rotation: -172.74027595374019, base_type: Scaffold, obj_id: 56,
+  rotation: -172.74027595374019, x: 469, y: 867}
+- !RapidTurret1 {base_rotation: 162.80145877993414, base_type: Scaffold, obj_id: 66,
+  rotation: 162.80145877993414, x: 487, y: 654}
+- !RapidTurret1 {base_rotation: 113.34052857055809, base_type: Scaffold, obj_id: 67,
+  rotation: 113.34052857055809, x: 658, y: 523}
+- !RapidTurret1 {base_rotation: 19.193071790749944, base_type: Scaffold, obj_id: 68,
+  rotation: 19.193071790749944, x: 977, y: 655}
+- !RapidTurret1 {base_rotation: -159.31930861118292, base_type: Scaffold, obj_id: 69,
+  rotation: -159.31930861118292, x: 806, y: 169}
+- !RapidTurret1 {base_rotation: -74.79759129082386, base_type: Scaffold, obj_id: 70,
+  rotation: -74.79759129082386, x: 1199, y: 403}
+- !RapidTurret1 {base_rotation: 54.524667971789995, base_type: Scaffold, obj_id: 71,
+  rotation: 54.524667971789995, x: 927, y: 393}
+- !RapidTurret1 {base_rotation: -180.0, base_type: Scaffold, obj_id: 72, rotation: -180.0,
+  x: 752, y: 1193}
+- !RapidTurret1 {base_rotation: 177.29937066260473, base_type: Scaffold, obj_id: 73,
+  rotation: 177.29937066260473, x: 749, y: 1317}
+- !RapidTurret1 {base_rotation: 177.29705596218528, base_type: Scaffold, obj_id: 74,
+  rotation: 177.29705596218528, x: 847, y: 1250}
+- !Decal {img_name: Barrel_2, obj_id: 75, overhead: false, rotation: 0.0, scale: 1.0,
+  x: 828, y: 557}

@@ -1,0 +1,6 @@
+vn4n: Geo-scans show an optimal site for placing the digger with the charges.  I'm launching it now.
+vn4n: Huh, that's funny. Gw0rp, did you notice any unusual atmospheric activity down there?
+gw0rp: No...Wait, I ran into some unusual low-entropy noise near that animal den - the one with the roosting projectile creatures. And there's a long trail of turbulent dust a few picoparsecs up. Why do you ask?
+---
+vn4n: It's just that, I lost contact with the digger on its way down. Based on its last transmission, it crashed near a large core-metal formation north of your current position.
+gw0rp: Huh, that's strange.  I'm going there to investigate.

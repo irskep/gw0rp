@@ -1,0 +1,16 @@
+gw0rp
+version b0.9
+by Steve Johnson
+http://www.steveasleep.com/
+
+Please direct all questions or issues to diordna@gmail.com. I respond to email very quickly, and since this is a voting contest, there is a very good chance that I will address any issues as quickly as possible.
+
+gw0rp is an entry in uDevGames 2008. Vote for it!
+http://www.udevgames.com/
+
+This game uses the following libraries:
+-Pyglet: http://www.pyglet.org/
+-Pymunk: http://code.google.com/p/pymunk/
+-Lepton: http://code.google.com/p/py-lepton/
+-Py-YAML: http://pyyaml.org/wiki/PyYAML
+-Psyco: http://psyco.sourceforge.net/

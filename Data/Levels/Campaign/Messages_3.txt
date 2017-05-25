@@ -1,0 +1,25 @@
+human1_1: #$*&*-Alien Vessel-*$&*-city.
+human2_2: Are we ready?
+human1_3: Locked the-#$*&%#$*-The -*#%$#$$%*&--purificat-&%$**%$#$&*-has a key to-%&*#$&*
+human2_4: Ok. I'll fire up the listener.
+human1_5: &$*#$&#$&#*$#&$-Orbital-*&$*#&$#*$&#*
+human2_6: Understood.
+
+vn4n_7: Did you hear that?
+gw0rp_8: Some of it. It's at a weird frequency.
+vn4n_9: I've refined the search parameters to one of the buildings near the open space to your east. There's no graviometric signature there, but that doesn't mean that there isn't anything there.
+
+vn4n_10: You won't be able to get through here unless we find a key or override the security circuit. Maybe there's a generator you can blow.
+
+gw0rp_enter3c: The atmosphere in this, uh, 'building' is different - A lot more carbon dioxide, and a lot of dihydrogen monoxide. It's ... itchy and warm. There's also a bunch of sleeping animals, of all three types observed so far.
+
+gw0rp3d_1: Ack! There's an open dihydrogen monoxide pit! Well, at least that explains the elevated count. It's so humid in here that my circuitry is shorting.
+vn4n3d_2: Whatever you do, don't fall in. I like you in one piece, thank you very much, and that stuff will corrode right through your optocircuitry.
+gw0rp3d_3: This place is very scary.
+
+human2_3fbridge_1: The bailey has been breached. Repeat, the bailey has been breached. Fall back to tertiary defensive positions.
+human1_3fbridge_2: We copy, -*#$%&#%&#*-- Falling Back.
+vn4n_3fbridge_3: There! That pillared structure! The signals are coming from within there, gw0rp.
+
+human1_3g_1: #%$#*- Transmission --*%$#$&*$*#&$*#-- orbital -*#$%$-- Gwap? Glorp? --#%$%#%#$
+human2_3g_2: Gworp, like with a !----------------------------------------------------

@@ -1,0 +1,41 @@
+ah2_1: Incoming, in the bailey.
+ah1_2: Do we run the greeter program?
+ah2_3: No, it's not her. Eliminate with extreme prejudice.
+
+bv_1: Ph3ge, please...try to find my Gw0rp. Find him ... and bring him back to me.
+
+cp_1: Vn4n, can you hear me down here?
+cp_2: I guess not.
+cgs_3: I can hear you.
+cp_4: Who was that?
+
+dp_1: That looks like their digger. I bet I could use it to relay a signal up to orbit.
+
+d2p_1: Vn4n, can you hear me now?
+d2v_2: Barely. I was worried when I lost your signal, too.
+d2p_3: Did you know your digger had been physically deactivated?
+d2v_4: I lost contact a few cycles after I lost Gw0rp. To be honest, I was too worried about him to question how the digger had been deactivated.  
+d2v_5: Any luck finding him?
+d2p_6: I'm not sure.
+d2gs_7: ...
+
+e1p_1: Vn4n, can you analyze this atmosphere sample for me?
+e1gs_2: She can't hear you from here.
+e1p_3: What was that?! Who are you?
+e1gs_4: ...
+
+e2h1_1: The invader is through this door. Kill it with fire!
+e2h2_2: Be careful. This isn't the overbright. There are women and children here.
+e2h1_3: Not for long, if that thing gets to the environmental controls. If we don't stop it, everyone here will die.
+e2h2_4: You're right.  It's worth our lives to defend them. What are we waiting for?  GO, GO, GO!
+
+c2p_1: Vn4n, use the matter transmitter on my ship to send down some nerve gas. 
+c2v_2: A what? What for?
+c2p_3: I think gw0rp was imprisoned in this underground hive. With a neurotoxin, I can cull all of the infesting animals without harming myself, him, or any other cybernetic intelligences here.
+c2v_4: If it'll bring gw0rp back, then I'll do it. Will the animals suffer?
+c2p_5: No, nerve gas kills instantly.  It's very humane.
+
+e6gs_1: Dead ... All dead.
+e7gs_1: You should have realized...
+e8gs_1: How could you not see the truth?
+e11gs_1: Too much has been lost.

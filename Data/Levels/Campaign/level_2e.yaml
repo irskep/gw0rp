@@ -1,0 +1,147 @@
+- !Env
+  background_image: level_2e
+  height: 2444
+  player_angle: 1.5700000000000001
+  player_config: normal
+  player_x: 194
+  player_y: 2116
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 1200
+- !Line {collides: true, obj_id: 3, visible: false, x1: -1, x2: 81, y1: 2317, y2: 2317}
+- !Line {collides: true, obj_id: 4, visible: false, x1: 81, x2: 81, y1: 2317, y2: 2426}
+- !Line {collides: true, obj_id: 5, visible: false, x1: 81, x2: 1115, y1: 2426, y2: 2426}
+- !Line {collides: true, obj_id: 6, visible: false, x1: 1115, x2: 1116, y1: 2426,
+  y2: 2156}
+- !Line {collides: true, obj_id: 7, visible: false, x1: 1116, x2: 1199, y1: 2156,
+  y2: 2156}
+- !Line {collides: true, obj_id: 8, visible: false, x1: 1199, x2: 1113, y1: 1760,
+  y2: 1760}
+- !Line {collides: true, obj_id: 9, visible: false, x1: 1113, x2: 1112, y1: 1760,
+  y2: 379}
+- !Line {collides: true, obj_id: 10, visible: false, x1: 1112, x2: 506, y1: 379, y2: 378}
+- !Line {collides: true, obj_id: 11, visible: false, x1: 261, x2: 83, y1: 378, y2: 379}
+- !Line {collides: true, obj_id: 12, visible: false, x1: 83, x2: 83, y1: 379, y2: 1918}
+- !Line {collides: true, obj_id: 13, visible: false, x1: 83, x2: 1, y1: 1918, y2: 1919}
+- !Line {collides: true, obj_id: 14, visible: false, x1: 261, x2: 264, y1: 378, y2: 352}
+- !Line {collides: true, obj_id: 15, visible: false, x1: 264, x2: 81, y1: 352, y2: 352}
+- !Line {collides: true, obj_id: 16, visible: false, x1: 81, x2: 81, y1: 352, y2: 19}
+- !Line {collides: true, obj_id: 17, visible: false, x1: 81, x2: 721, y1: 19, y2: 21}
+- !Line {collides: true, obj_id: 18, visible: false, x1: 721, x2: 723, y1: 21, y2: 352}
+- !Line {collides: true, obj_id: 19, visible: false, x1: 723, x2: 501, y1: 352, y2: 352}
+- !Line {collides: true, obj_id: 20, visible: false, x1: 501, x2: 505, y1: 352, y2: 378}
+- !Line {collides: false, obj_id: 1, visible: false, x1: 6, x2: 4, y1: 2333, y2: 1898}
+- !Line {collides: false, obj_id: 2, visible: false, x1: 1192, x2: 1193, y1: 2173,
+  y2: 1747}
+- !Line {collides: false, obj_id: 83, visible: false, x1: 250, x2: 500, y1: 350, y2: 350}
+- !FreeRepair {obj_id: 21, rotation: 165.31678024760399, x: 511, y: 157}
+- !FreeCargo {obj_id: 84, rotation: 0, x: 256, y: 140}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 22, rotation: 0, x: 156.0, y: 2325.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 23, rotation: 0, x: 670.0, y: 2218.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 24, rotation: 0, x: 272.0, y: 2325.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 25, rotation: 0, x: 387.0, y: 2325.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 26, rotation: 0, x: 503.0, y: 2325.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 27, rotation: 0, x: 789.0, y: 2326.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 28, rotation: 0, x: 675.0, y: 2326.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 29, rotation: 0, x: 935.0, y: 2326.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 30, rotation: 0, x: 787.0, y: 2218.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 31, rotation: 0, x: 1049.0, y: 2326.333333333333}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 32, rotation: 0, x: 135.0, y: 1861.333333333333}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 33, rotation: 0, x: 216.0, y: 1861.333333333333}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 34, rotation: 0, x: 285.0, y: 1861.333333333333}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 36, rotation: 0, x: 348.33333333333337,
+  y: 1710.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 40, rotation: 0, x: 789.0, y: 1859.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 42, rotation: 0, x: 266.0, y: 1788.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 43, rotation: 0, x: 935.33333333333326,
+  y: 1730.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 44, rotation: 0, x: 787.0, y: 2095.333333333333}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 47, rotation: 0, x: 862.0, y: 2262.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 48, rotation: 0, x: 1049.3333333333333,
+  y: 1730.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 49, rotation: 0, x: 146.0, y: 1788.333333333333}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 50, rotation: 0, x: 642.33333333333337,
+  y: 1730.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 51, rotation: 0, x: 715.33333333333337,
+  y: 1665.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 52, rotation: 0, x: 715.33333333333337,
+  y: 1547.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 53, rotation: 0, x: 715.33333333333337,
+  y: 1430.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 54, rotation: 0, x: 715.33333333333337,
+  y: 1313.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 55, rotation: 0, x: 862.0, y: 1795.333333333333}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 56, rotation: 0, x: 862.33333333333337,
+  y: 1666.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 57, rotation: 0, x: 862.33333333333337,
+  y: 1548.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 58, rotation: 0, x: 866.33333333333337,
+  y: 1281.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 59, rotation: 0, x: 866.33333333333337,
+  y: 1164.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 60, rotation: 0, x: 273.0, y: 1358.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 61, rotation: 0, x: 790.33333333333337,
+  y: 1270.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 62, rotation: 0, x: 939.33333333333326,
+  y: 1121.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 63, rotation: 0, x: 1052.3333333333333,
+  y: 1121.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 64, rotation: 0, x: 462.0, y: 1181.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 65, rotation: 0, x: 460.0, y: 1417.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 66, rotation: 0, x: 346.0, y: 1535.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 67, rotation: 0, x: 347.0, y: 1181.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 68, rotation: 0, x: 346.0, y: 1417.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 70, rotation: 0, x: 789.33333333333337,
+  y: 1730.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 71, rotation: 0, x: 460.0, y: 1300.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 72, rotation: 0, x: 347.0, y: 1300.6666666666663}
+- !RapidTurret1 {base_rotation: 179.44374777291932, base_type: Tank, obj_id: 73, rotation: 179.44374777291932,
+  x: 1043, y: 2247}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 45, rotation: 0, x: 273.0, y: 1594.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 46, rotation: 0, x: 273.0, y: 1477.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 74, rotation: 0, x: 273.0, y: 1240.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 75, rotation: 0, x: 273.0, y: 1123.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 76, rotation: 0, x: 273.0, y: 1004.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 78, rotation: 0, x: 273.0, y: 793.66666666666629}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 79, rotation: 0, x: 273.0, y: 676.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 80, rotation: 0, x: 315.0, y: 562.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 85, rotation: 0, x: 705.0, y: 528.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 86, rotation: 0, x: 821.0, y: 527.66666666666629}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 87, rotation: 0, x: 630.0, y: 464.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 88, rotation: 0, x: 1050.0, y: 977.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 89, rotation: 0, x: 935.0, y: 977.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 90, rotation: 0, x: 820.0, y: 977.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 95, rotation: 0, x: 820.0, y: 848.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 96, rotation: 0, x: 933.0, y: 848.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 97, rotation: 0, x: 1047.0, y: 848.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 99, rotation: 0, x: 525.0, y: 631.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 100, rotation: 0, x: 639.0, y: 631.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 101, rotation: 0, x: 754.0, y: 631.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 92, rotation: 0, x: 348.0, y: 1064.6666666666663}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 93, rotation: 0, x: 314.0, y: 929.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 98, rotation: 0, x: 347.0, y: 835.66666666666629}
+- !DestructibleWall {img_name: Shelf_H, obj_id: 103, rotation: 0, x: 346.0, y: 735.66666666666629}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 104, rotation: 0, x: 484.0, y: 1079.6666666666663}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 105, rotation: 0, x: 484.0, y: 952.66666666666629}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 107, rotation: 0, x: 484.0, y: 823.66666666666629}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 108, rotation: 0, x: 484.0, y: 706.66666666666629}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 109, rotation: 0, x: 895.0, y: 463.66666666666629}
+- !FreeBomb {obj_id: 94, rotation: 0, x: 947.0, y: 659.66666666666629}
+- !FreeBomb {obj_id: 102, rotation: 0, x: 1022.0, y: 530.66666666666629}
+- !RapidTurret1 {base_rotation: -180.0, base_type: Scaffold, obj_id: 112, rotation: -180.0,
+  x: 987.0, y: 1048.6666666666663}
+- !RapidTurret1 {base_rotation: -9.0665027398161744, base_type: Scaffold, obj_id: 116,
+  rotation: -9.0665027398161744, x: 810.0, y: 1406.6666666666663}
+- !FreeCargo {obj_id: 201, rotation: -90.0, x: 967.0, y: 1419.6666666666663}
+- !FreeCargo {obj_id: 202, rotation: 0, x: 1027.0, y: 1621.6666666666663}
+- !FreeCargo {obj_id: 204, rotation: 0, x: 781.0, y: 2272.6666666666661}
+- !FreeCargo {obj_id: 206, rotation: 0, x: 119.0, y: 1375.6666666666661}
+- !FreeCargo {obj_id: 207, rotation: 0, x: 933.0, y: 909.66666666666606}
+- !FreeCargo {obj_id: 208, rotation: 0, x: 1034.0, y: 632.66666666666606}
+- !FreeCargo {obj_id: 209, rotation: 0, x: 613.0, y: 89.66666666666606}
+- !FreeCargo {obj_id: 210, rotation: 0, x: 618.0, y: 243.66666666666606}
+- !FreeThruster {obj_id: 128, rotation: 0, x: 178.0, y: 99.66666666666606}
+- !FreeThruster {obj_id: 129, rotation: -151.88679112394405, x: 186.0, y: 252.66666666666606}
+- !FreeTurret {obj_id: 130, rotation: -90.0, x: 397.0, y: 156.66666666666606}
+- !FreeBomb {obj_id: 35, rotation: 0, x: 1041, y: 1504}
+- !RapidTurret1 {base_rotation: 178.89829388479362, base_type: Scaffold, obj_id: 37,
+  rotation: 178.89829388479362, x: 544, y: 471}

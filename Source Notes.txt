@@ -1,0 +1,8 @@
+gw0rp is an entry in uDevGames 2008.
+http://www.udevgames.com/
+
+Because gw0rp is being written for a contest on a tight deadline, things change rapidly. Some of this code is rather incestuous. Sorry. I plan to release the juicy bits one at a time in self-contained modules.
+
+To run, you need the pyglet, pymunk, yaml, lepton, and psyco libraries. You need to put lepton, pymunk, and psyco in the source folder to build the app package.
+
+The stable version of pymunk will *not* run with gw0rp. You must use the included version, though you may need to compile the shared library for your platform.

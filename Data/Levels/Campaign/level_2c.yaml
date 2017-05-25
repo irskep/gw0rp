@@ -1,0 +1,97 @@
+- !Env
+  background_image: level_2c
+  height: 2048
+  player_angle: 1.5700000000000001
+  player_config: normal
+  player_x: 1272
+  player_y: 127
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 2048
+- !Line {collides: true, obj_id: 1, visible: false, x1: 1899, x2: 1898, y1: 1937,
+  y2: -1}
+- !Line {collides: true, obj_id: 2, visible: false, x1: 1897, x2: 1275, y1: 1937,
+  y2: 1938}
+- !Line {collides: true, obj_id: 3, visible: false, x1: 790, x2: 279, y1: 1938, y2: 1937}
+- !Line {collides: true, obj_id: 4, visible: false, x1: 279, x2: 277, y1: 1937, y2: 861}
+- !Line {collides: true, obj_id: 5, visible: false, x1: 277, x2: -2, y1: 861, y2: 863}
+- !Line {collides: true, obj_id: 6, visible: false, x1: 108, x2: 109, y1: 863, y2: 118}
+- !Line {collides: true, obj_id: 7, visible: false, x1: 656, x2: 656, y1: 71, y2: -11}
+- !Line {collides: true, obj_id: 8, visible: false, x1: 1487, x2: 1487, y1: 109, y2: 87}
+- !Line {collides: true, obj_id: 9, visible: false, x1: 1487, x2: 1897, y1: 87, y2: 87}
+- !Line {collides: true, obj_id: 11, visible: false, x1: 1897, x2: 1487, y1: 109,
+  y2: 109}
+- !Line {collides: true, obj_id: 12, visible: false, x1: 1663, x2: 1663, y1: 131,
+  y2: 73}
+- !Line {collides: true, obj_id: 13, visible: false, x1: 1663, x2: 1721, y1: 73, y2: 73}
+- !Line {collides: true, obj_id: 14, visible: false, x1: 1721, x2: 1721, y1: 73, y2: 131}
+- !Line {collides: true, obj_id: 15, visible: false, x1: 1721, x2: 1663, y1: 131,
+  y2: 131}
+- !Line {collides: true, obj_id: 16, visible: false, x1: 82, x2: 82, y1: 128, y2: 70}
+- !Line {collides: true, obj_id: 17, visible: false, x1: 82, x2: 141, y1: 70, y2: 70}
+- !Line {collides: true, obj_id: 18, visible: false, x1: 141, x2: 141, y1: 70, y2: 128}
+- !Line {collides: true, obj_id: 19, visible: false, x1: 141, x2: 82, y1: 128, y2: 128}
+- !Line {collides: true, obj_id: 20, visible: false, x1: 631, x2: 631, y1: 126, y2: 69}
+- !Line {collides: true, obj_id: 21, visible: false, x1: 631, x2: 687, y1: 69, y2: 69}
+- !Line {collides: true, obj_id: 22, visible: false, x1: 687, x2: 687, y1: 69, y2: 126}
+- !Line {collides: true, obj_id: 23, visible: false, x1: 687, x2: 631, y1: 126, y2: 126}
+- !Line {collides: true, obj_id: 24, visible: false, x1: 846, x2: 846, y1: 126, y2: 68}
+- !Line {collides: true, obj_id: 25, visible: false, x1: 846, x2: 906, y1: 68, y2: 68}
+- !Line {collides: true, obj_id: 26, visible: false, x1: 906, x2: 906, y1: 68, y2: 126}
+- !Line {collides: true, obj_id: 27, visible: false, x1: 906, x2: 846, y1: 126, y2: 126}
+- !Line {collides: true, obj_id: 28, visible: false, x1: 1064, x2: 1064, y1: 105,
+  y2: 85}
+- !Line {collides: true, obj_id: 29, visible: false, x1: 1064, x2: 116, y1: 85, y2: 85}
+- !Line {collides: true, obj_id: 31, visible: false, x1: 116, x2: 1064, y1: 105, y2: 105}
+- !Line {collides: true, obj_id: 10, visible: false, x1: 815, x2: 1260, y1: 1939,
+  y2: 1938}
+- !Line {collides: false, obj_id: 30, visible: false, x1: 900, x2: 1671, y1: 28, y2: 28}
+- !Circle {collides: false, obj_id: 38, radius: 350.0, visible: false, x: 500, y: 450}
+- !Line {collides: true, obj_id: 43, visible: false, x1: 1064, x2: 1065, y1: 86, y2: 226}
+- !Line {collides: true, obj_id: 44, visible: false, x1: 1485, x2: 1485, y1: 91, y2: 230}
+- !Line {collides: false, obj_id: 45, visible: false, x1: 1100, x2: 1450, y1: 300,
+  y2: 300}
+- !Line {collides: true, obj_id: 46, visible: false, x1: 1063, x2: 1125, y1: 220,
+  y2: 222}
+- !Line {collides: true, obj_id: 47, visible: false, x1: 1125, x2: 1124, y1: 222,
+  y2: 270}
+- !Line {collides: true, obj_id: 48, visible: false, x1: 1484, x2: 1424, y1: 221,
+  y2: 221}
+- !Line {collides: true, obj_id: 49, visible: false, x1: 1424, x2: 1423, y1: 221,
+  y2: 271}
+- !Line {collides: false, obj_id: 39, visible: false, x1: 300, x2: 1100, y1: 1050,
+  y2: 1050}
+- !Line {collides: false, obj_id: 40, visible: false, x1: 1100, x2: 1100, y1: 1050,
+  y2: 400}
+- !Circle {collides: true, obj_id: 54, radius: 50.0, visible: false, x: 500, y: 500}
+- !Line {collides: true, obj_id: 60, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 61, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 62, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 63, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 64, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 65, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 66, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !Line {collides: true, obj_id: 67, visible: true, x1: 0.0, x2: 0.0, y1: 0.0, y2: 0.0}
+- !RapidTurret1 {base_rotation: 0, base_type: MetalTower, obj_id: 32, rotation: 0,
+  x: 1093, y: 258}
+- !RapidTurret1 {base_rotation: 0, base_type: MetalTower, obj_id: 33, rotation: 0,
+  x: 1454, y: 257}
+- !RapidTurret1 {base_rotation: 67.087171603228342, base_type: Tank, obj_id: 35, rotation: 67.087171603228342,
+  x: 557, y: 878}
+- !RapidTurret1 {base_rotation: 110.92450174492116, base_type: Tank, obj_id: 36, rotation: 110.92450174492116,
+  x: 308, y: 260}
+- !Decal {img_name: Digger_deploying_1, obj_id: 37, overhead: false, rotation: 0.0,
+  scale: 1.0, x: 495, y: 502}
+- !ImageDoor {key: 0, obj_id: 34, rotation: 0, x: 1122, y: 253}
+- !Decal {img_name: Fence_vert, obj_id: 41, overhead: false, rotation: 0.0, scale: 1.0,
+  x: 1066, y: 178}
+- !Decal {img_name: Fence_vert, obj_id: 42, overhead: false, rotation: 0.0, scale: 1.0,
+  x: 1486, y: 181}
+- !RapidTurret1 {base_rotation: 96.526648761604449, base_type: Scaffold, obj_id: 50,
+  rotation: 96.526648761604449, x: 1364, y: 1861}
+- !FreeThruster {obj_id: 52, rotation: -31.938448916671888, x: 371, y: 1826}
+- !FreeThruster {obj_id: 53, rotation: 161.95217893122893, x: 709, y: 1888}
+- !ImageDoor {key: 4, obj_id: 55, rotation: 0, x: 1041, y: 1907}
+- !ImageDoor {key: 4, obj_id: 56, rotation: 0, x: 790, y: 1906}
+- !FreeTurret {obj_id: 59, rotation: -121.31354327018973, x: 1299, y: 624}
+- !RapidTurret1 {base_rotation: 116.25024236968888, base_type: Tank, obj_id: 68, rotation: 116.25024236968888,
+  x: 547, y: 1741}

@@ -1,0 +1,36 @@
+- !Env
+  background_image: level_2d
+  height: 1200
+  player_angle: 1.5700000000000001
+  player_config: normal
+  player_x: 914
+  player_y: 161
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 1600
+- !Line {collides: false, obj_id: 1, visible: false, x1: 697, x2: 1143, y1: 42, y2: 42}
+- !Line {collides: false, obj_id: 3, visible: false, x1: 688, x2: 1144, y1: 1127,
+  y2: 1127}
+- !Line {collides: true, obj_id: 4, visible: false, x1: 1495, x2: 26, y1: 40, y2: 40}
+- !Line {collides: true, obj_id: 5, visible: false, x1: 26, x2: 26, y1: 40, y2: 1128}
+- !Line {collides: true, obj_id: 6, visible: false, x1: 26, x2: 1500, y1: 1128, y2: 1128}
+- !Line {collides: true, obj_id: 7, visible: false, x1: 1500, x2: 1500, y1: 1128,
+  y2: 885}
+- !Line {collides: true, obj_id: 8, visible: false, x1: 1500, x2: 1601, y1: 885, y2: 884}
+- !Line {collides: true, obj_id: 9, visible: false, x1: 1600, x2: 1503, y1: 499, y2: 498}
+- !Line {collides: true, obj_id: 10, visible: false, x1: 1503, x2: 1501, y1: 498,
+  y2: 41}
+- !Line {collides: false, obj_id: 2, visible: false, x1: 1589, x2: 1589, y1: 907,
+  y2: 553}
+- !FreeBomb {obj_id: 11, rotation: -7.1250163489017977, x: 501, y: 131}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 12, rotation: 0, x: 1504, y: 821}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 13, rotation: 0, x: 1504, y: 692}
+- !DestructibleWall {img_name: Shelf_V, obj_id: 14, rotation: 0, x: 1504, y: 570}
+- !RapidTurret1 {base_rotation: 41.023269024922428, base_type: Tank, obj_id: 15, rotation: 41.023269024922428,
+  x: 193, y: 523}
+- !ImageDoor {key: 4, obj_id: 16, rotation: 0, x: 673, y: 1097}
+- !ImageDoor {key: 4, obj_id: 17, rotation: 0, x: 922, y: 1098}
+- !Decal {img_name: Tower, obj_id: 19, overhead: false, rotation: 90.0, scale: 1.0,
+  x: 1566, y: 548}
+- !FreeCargo {obj_id: 20, rotation: 0, x: 230, y: 662}
+- !FreeBomb {obj_id: 21, rotation: 0, x: 478, y: 965}
+- !FreeBomb {obj_id: 22, rotation: 0, x: 1436, y: 76}

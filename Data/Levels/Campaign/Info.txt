@@ -1,0 +1,5 @@
+Name: Campaign
+Author: Calvin Eiber and Steve Johnson
+Difficulty: Progressive
+First level: level_1a
+Rank: 1

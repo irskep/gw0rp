@@ -1,0 +1,652 @@
+- !anchor
+  point: [20, 20]
+  images: 
+  - turret1_blue
+  - turret1_grey
+  - turret1_orange
+  - turret2_static
+  - turret2_1
+  - turret2_2
+  - turret2_R_static
+  - turret2_R_1
+  - turret2_R_2
+  
+
+- !anchor
+  point: [21, 21]
+  images: [turret3_1, turret3_2, turret3_3, turret3_static]
+
+- !anchor
+  point: [35, 25]
+  images: [thruster_off]
+
+- !anchor
+  point: [37, 30]
+  images: [tankbody]
+
+- !anchor
+  point: [37, 40]
+  images: [tank_dead]
+
+- !anchor
+  point: [38, 25]
+  images:
+  - thruster_on_1
+  - thruster_on_2
+  - thruster_on_3
+  - thruster_on_4
+  - thruster_on_static
+  
+
+- !anchor
+  point: [22, -24]
+  images: 
+  - tank_left_1
+  - tank_left_2
+  - tank_left_3
+  - tank_left_4
+  - tank_left_5
+  - tank_left_6
+  - tank_left_7
+
+- !anchor
+  point: [22, 37]
+  images: 
+  - tank_right_1
+  - tank_right_2
+  - tank_right_3
+  - tank_right_4
+  - tank_right_5
+  - tank_right_6
+  - tank_right_7
+
+- !anchor
+  point: [35, 46]
+  images: 
+  - Tower1_1_over
+  - Tower1_1_under
+  - Tower1_1
+  - Tower1_2_over
+  - Tower1_2_under
+  - Tower1_2
+  - Tower1_3
+  - Tower1_4
+  - Tower1_Static
+  - Tower2_Static
+  
+
+- !anchor
+  point: [51, 58]
+  images: [Lander]
+
+- !anchor
+  point: [46, 8]
+  images: [engine_flame_1]
+
+- !anchor
+  point: [26, 40]
+  images:
+  - Harvester_1
+  - Harvester_2
+  - Harvester_3
+  - Harvester_4
+  - Harvester_5
+  - Harvester_6
+  - Harvester_7
+  - Harvester_8
+
+- !anchor
+  point: [0, 26]
+  images: 
+  - Door2_R_Static
+  - Door2_R_1
+  - Door2_R_2
+  - Door2_R_3
+  - Door2_R_4
+  - Door2_R_5
+  - Door2_R_6
+  - Door2_R_Open
+  - Door2_R_under
+  - Door2_P_Static
+  - Door2_P_1
+  - Door2_P_2
+  - Door2_P_3
+  - Door2_P_4
+  - Door2_P_5
+  - Door2_P_6
+  - Door2_P_Open
+  - Door2_P_under
+  
+
+- !anchor
+  point: [3, 5]
+  images:
+  - Door3_G_Static
+  - Door3_G_01
+  - Door3_G_02
+  - Door3_G_03
+  - Door3_G_04
+  - Door3_G_05
+  - Door3_G_06
+  - Door3_G_07
+  - Door3_G_08
+  - Door3_G_09
+  - Door3_G_10
+  - Door3_G_11
+  - Door3_G_12
+  - Door3_G_13
+  - Door3_G_14
+  - Door3_G_15
+  - Door3_G_16
+  - Door3_G_17
+  - Door3_G_18
+  - Door3_G_19
+  - Door3_G_Open
+  - Door3_G_under
+  
+
+- !animation
+  name: Door1_B_open_anim
+  period: 0.18
+  mirror: false
+  loop: false
+  images:
+  - Door1_B_Static
+  - Door1_B_1
+  - Door1_B_2
+  - Door1_B_3
+  - Door1_B_4
+  - Door1_B_5
+  - Door1_B_6
+  - Door1_B_7
+  - Door1_B_8
+  - Door1_B_9
+  - Door1_B_Open
+  
+
+- !animation
+  name: Door1_B_close_anim
+  period: 0.18
+  mirror: false
+  loop: false
+  images:
+  - Door1_B_Open
+  - Door1_B_9
+  - Door1_B_8
+  - Door1_B_7
+  - Door1_B_6
+  - Door1_B_5
+  - Door1_B_4
+  - Door1_B_3
+  - Door1_B_2
+  - Door1_B_1
+  - Door1_B_Static
+  
+
+- !animation
+  name: Door2_R_open_anim
+  period: 0.2
+  mirror: false
+  loop: false
+  images:
+  - Door2_R_Static
+  - Door2_R_1
+  - Door2_R_2
+  - Door2_R_3
+  - Door2_R_4
+  - Door2_R_5
+  - Door2_R_6
+  - Door2_R_Open
+  
+
+- !animation
+  name: Door2_R_close_anim
+  period: 0.2
+  mirror: false
+  loop: false
+  images:
+  - Door2_R_Open
+  - Door2_R_6
+  - Door2_R_5
+  - Door2_R_4
+  - Door2_R_3
+  - Door2_R_2
+  - Door2_R_1
+  - Door2_R_Static
+  
+
+- !animation
+  name: Door2_P_open_anim
+  period: 0.2
+  mirror: false
+  loop: false
+  images:
+  - Door2_P_Static
+  - Door2_P_1
+  - Door2_P_2
+  - Door2_P_3
+  - Door2_P_4
+  - Door2_P_5
+  - Door2_P_6
+  - Door2_P_Open
+  
+
+- !animation
+  name: Door2_P_close_anim
+  period: 0.2
+  mirror: false
+  loop: false
+  images:
+  - Door2_P_Open
+  - Door2_P_6
+  - Door2_P_5
+  - Door2_P_4
+  - Door2_P_3
+  - Door2_P_2
+  - Door2_P_1
+  - Door2_P_Static
+  
+
+- !animation
+  name: Door3_G_open_anim
+  period: 0.19
+  mirror: false
+  loop: false
+  images:
+  - Door3_G_Static
+  - Door3_G_01
+  - Door3_G_02
+  - Door3_G_03
+  - Door3_G_04
+  - Door3_G_05
+  - Door3_G_06
+  - Door3_G_07
+  - Door3_G_08
+  - Door3_G_09
+  - Door3_G_10
+  - Door3_G_11
+  - Door3_G_12
+  - Door3_G_13
+  - Door3_G_14
+  - Door3_G_15
+  - Door3_G_16
+  - Door3_G_17
+  - Door3_G_18
+  - Door3_G_19
+  - Door3_G_Open
+  
+
+- !animation
+  name: Door3_G_close_anim
+  period: 0.19
+  mirror: false
+  loop: false
+  images:
+  - Door3_G_Open
+  - Door3_G_19
+  - Door3_G_18
+  - Door3_G_17
+  - Door3_G_16
+  - Door3_G_15
+  - Door3_G_14
+  - Door3_G_13
+  - Door3_G_12
+  - Door3_G_11
+  - Door3_G_10
+  - Door3_G_09
+  - Door3_G_08
+  - Door3_G_07
+  - Door3_G_06
+  - Door3_G_05
+  - Door3_G_04
+  - Door3_G_03
+  - Door3_G_02
+  - Door3_G_01
+  - Door3_G_Static
+  
+
+- !animation
+  name: core_anim
+  period: 0.1
+  mirror: true
+  loop: true
+  images: [core_2, core_3, core_4, core_5, core_6, core_7, core_8]
+
+- !animation
+  name: thruster_active_anim
+  period: 0.1
+  mirror: true
+  loop: true
+  images: [thruster_on_1, thruster_on_2, thruster_on_3, thruster_on_4]
+
+- !animation
+  name: logic_anim
+  period: 0.1
+  mirror: true
+  loop: true
+  images:
+  - logic_1
+  - logic_2
+  - logic_3
+  - logic_4
+  - logic_5
+  - logic_6
+  - logic_7
+  - logic_8
+  - logic_9
+  - logic_0
+
+- !animation
+  name: ph3ge_anim
+  period: 0.1
+  mirror: true
+  loop: true
+  images:
+  - logic_1_O
+  - logic_2_O
+  - logic_3_O
+  - logic_4_O
+  - logic_5_O
+  - logic_6_O
+  - logic_7_O
+  - logic_8_O
+  - logic_9_O
+  - logic_0_O
+  
+
+- !animation
+  name: power_anim
+  period: 0.1
+  mirror: true
+  loop: true
+  images:
+  - power_1
+  - power_2
+  - power_3
+  - power_4
+  - power_5
+  - power_6
+  - power_7
+  - power_8
+  - power_9
+  - power_0
+  
+
+- !animation
+  name: beacon_anim
+  period: 0.2
+  mirror: false
+  loop: true
+  images: [beacon_1, beacon_2, beacon_3, beacon_4, beacon_5, beacon_6, beacon_7]
+
+- !animation
+  name: toxin_anim
+  period: 0.1
+  mirror: true
+  loop: true
+  images: 
+  - Harvester_1
+  - Harvester_2
+  - Harvester_3
+  - Harvester_4
+  - Harvester_5
+  - Harvester_6
+  - Harvester_7
+  - Harvester_8
+
+- !animation
+  name: turret2_anim_left
+  period: 0.1
+  mirror: false
+  loop: false
+  images: [turret2_1, turret2_static]
+
+- !animation
+  name: turret2_anim_right
+  period: 0.1
+  mirror: false
+  loop: false
+  images: [turret2_2, turret2_static]
+
+- !animation
+  name: turret2_R_anim_left
+  period: 0.1
+  mirror: false
+  loop: false
+  images: [turret2_R_1, turret2_R_static]
+
+- !animation
+  name: turret2_R_anim_right
+  period: 0.1
+  mirror: false
+  loop: false
+  images: [turret2_R_2, turret2_R_static]
+
+- !animation
+  name: turret3_anim
+  period: 0.1
+  mirror: false
+  loop: false
+  images: [turret3_1, turret3_2, turret3_3, turret3_static]
+
+- !animation
+  name: tank_left_forward
+  period: 0.005
+  mirror: false
+  loop: true
+  images: 
+  - tank_left_1
+  - tank_left_2
+  - tank_left_3
+  - tank_left_4
+  - tank_left_5
+  - tank_left_6
+  - tank_left_7
+
+- !animation
+  name: tank_left_backward
+  period: 0.005
+  mirror: false
+  loop: true
+  images: 
+  - tank_left_7
+  - tank_left_6
+  - tank_left_5
+  - tank_left_4
+  - tank_left_3
+  - tank_left_2
+  - tank_left_1
+
+
+- !animation
+  name: tank_right_forward
+  period: 0.005
+  mirror: false
+  loop: true
+  images: 
+  - tank_right_1
+  - tank_right_2
+  - tank_right_3
+  - tank_right_4
+  - tank_right_5
+  - tank_right_6
+  - tank_right_7
+
+- !animation
+  name: tank_right_backward
+  period: 0.005
+  mirror: false
+  loop: true
+  images:
+  - tank_right_7
+  - tank_right_6
+  - tank_right_5
+  - tank_right_4
+  - tank_right_3
+  - tank_right_2
+  - tank_right_1
+
+- !animation
+  name: drone
+  period: 0.1
+  mirror: false
+  loop: true
+  images: 
+  - drone_1
+  - drone_2
+  - drone_3
+  - drone_2
+  - drone_1
+  - drone_3
+  - drone_1
+  - drone_3
+  - drone_2
+  - drone_3
+  - drone_2
+  - drone_1
+  - drone_2
+  - drone_3
+  - drone_1
+  - drone_3
+  - drone_1
+  - drone_2
+
+- !animation
+  name: Fan_anim
+  period: 0.025
+  mirror: false
+  loop: true
+  images: [Fan_1, Fan_2, Fan_3]
+
+- !animation
+  name: Digger_anim
+  period: 0.2
+  mirror: false
+  loop: false
+  images:
+  - Digger_deploying_1
+  - Digger_deploying_2
+  - Digger_deploying_3
+  - Digger_deploying_4
+  - Digger_deploying_5
+  - Digger_deploying_6
+  - Digger_deploying_7
+  - Digger_deploying_8
+
+- !animation
+  name: Generator_anim
+  period: 0.3
+  mirror: false
+  loop: true
+  images:
+  - Generator_0
+  - Generator_0
+  - Generator_0
+  - Generator_1
+  - Generator_0
+  - Generator_0
+  - Generator_0
+  - Generator_0
+  - Generator_2
+  - Generator_0
+  - Generator_0
+  - Generator_0
+  - Generator_3
+  - Generator_0
+  - Generator_0
+  - Generator_4
+  - Generator_0
+  - Generator_0
+  - Generator_0
+  - Generator_5
+
+- !center_prefixes
+  prefixes:
+  - beacon
+  - bigthruster
+  - bullet
+  - cargo
+  - core
+  - credits
+  - dest_arrow
+  - Digger_
+  - drone
+  - Fan_
+  - Generator_
+  - Key_
+  - levelup
+  - logic
+  - particle
+  - power
+  - repair
+  - rock
+  - settings_box
+  - Shelf_
+  - shield
+  - target
+  - title
+  - tnt
+  - turret_base
+
+
+- !key
+  tag: 0
+  image: Key_R
+  color: [1, 0, 0, 1]
+
+- !key
+  tag: 1
+  image: Key_O
+  color: [1, 0.5, 0, 1]
+
+- !key
+  tag: 2
+  image: Key_Y
+  color: [1, 1, 0, 1]
+
+- !key
+  tag: 3
+  image: Key_G
+  color: [0, 1, 0, 1]
+
+- !key
+  tag: 4
+  image: Key_B
+  color: [0, 0, 1, 1]
+
+- !key
+  tag: 5
+  image: Key_P
+  color: [0.5, 0.1, 1, 1]
+
+- !alias
+  name: bomb_static
+  original: power_1
+
+- !alias
+  name: bomb_anim
+  original: power_anim
+
+- !text_sound
+  name: vn4n
+  sound: text_blip_1
+
+- !text_sound
+  name: gw0rp
+  sound: text_blip_2
+
+- !text_sound
+  name: gw0rp_subverted
+  sound: text_blip_2
+
+- !text_sound
+  name: ph3ge
+  sound: text_blip_3
+
+- !text_sound
+  name: time
+  sound: text_blip_1
+
+- !text_sound
+  name: blank
+  sound: text_blip_1

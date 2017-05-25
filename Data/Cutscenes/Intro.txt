@@ -1,0 +1,9 @@
+blank: 3409 A.D.: Humanity colonizes a new world, Nyumba, near the galactic core.
+blank: 4618 A.D: Nuclear war ruins the earth. 99% of humanity leaves earth in a great fleet of generation ships.
+blank: 17244 A.D.: Computers capable of storing human consciousness are developed. Entire populations of planets upload themselves, to exist in a virtual reality free from hunger, pain, and death.
+blank: 20963 A.D.: A team of cybernetic humans working for a mining company discover a small planet, far from the galactic core.
+---
+vn4n: Our scans of the system have determined that planet OUFP1993 is suitable for mining. The planet has a silicon-rich crust rich with rare metal deposits and a pure iron core.
+vn4n: Best of all, there aren't any signs of intelligent life, so the INTLF treaty doesn't apply here. 
+gw0rp: It's my turn to place the planetside mining equipment. You got to do the last planet.
+vn4n: Okay, you can have this one.  I'll prepare lander 4 for immediate departure. Be careful down there. It's a new world - you never know what you might find.

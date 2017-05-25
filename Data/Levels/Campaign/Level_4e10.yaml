@@ -1,0 +1,12 @@
+- !Env
+  background_image: level_4e10
+  height: 1500
+  player_angle: 1.5700000000000001
+  player_x: 736
+  player_y: 780
+  prim_color: !!python/tuple [0, 0, 0, 255]
+  width: 1500
+- !Circle {collides: true, obj_id: 1, radius: 111.11255554616679, visible: false,
+  x: 747, y: 751}
+- !Line {collides: false, obj_id: 3, visible: false, x1: 884, x2: 727, y1: 742, y2: 614}
+- !FreeShield {obj_id: 2, rotation: 58.313632312143397, x: 690, y: 684}

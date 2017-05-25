@@ -1,0 +1,37 @@
+1a_intro_1: Gw0rp. Wake up, gw0rp.  Your consciousness has been transferred to the vehicle. Try moving around a bit with the arrow keys.
+1a_intro_2: Operating the vehicle can be difficult at first. When you feel more comfortable, grab the beacon by colliding with it and pressing Shift.
+
+1a_tut_1: Release the beacon by pressing Z.
+
+1a_attach_1: I have finished my scans of the area and have found three suitable locations for setting the triangulation beacons.
+1a_attach_2: Place the first beacon in the area designated by your targeting computer by pressing Z.
+
+1a_release: Excellent. I have offloaded the next beacon from the lander. Pick it up and head towards the large rise to the south.
+
+1a_err_1: You should be heading north, not south. Please get back to the mission.
+
+1b_intro_1: The next beacon site is up that rise, set into the cliff wall.
+1b_intro_2: Be careful. My sensors detect geological instability in the area. I can't come down there and dig you out if you get buried in the crust.
+
+1b_release_0: Good work. I have off*~-
+1b_release_1: Gw0rp! The probes are causing massive geological instability! Are you still functional? What's your status?
+1b_release_2: I sent down lander 5 with new equipment.  Use it to blast your way out.
+
+1b_bomb_1: Set the bomb next to the rocks and drop it. Then run away. It will explode when you are out of range.
+1b_bomb_2: You may need to use both bombs to blast all the rock away.
+1b_bomb_3: Good work. Now get back to the lander to get the third beacon.
+
+1a_intro_3: Gw0rp! A creature damaged the lander and has stolen the third beacon!
+1a_intro_4: The animal's heat trail leads east. Retrieve the beacon before it gets damaged!
+
+1c_intro_1: The creature took the beacon through that gate. If my analysis is correct, that red sphere in that alcove is a key.
+1c_intro_2: I dropped a bomb via parachute next to that pipe. Use it to destroy the rocks.
+1c_key_msg: The door should open for you now.
+
+1c_err_1: You should be heading south, not east. Please get back to the mission.
+
+1c_attacking_1: If you ram that projectile creature hard enough, it should come loose.
+1c_attacking_2: You can attach it like you did the beacons if you could only free it from its base…
+1c_attacking_3: This Cybertronic Assimilation Technology is courtesy of ph3ge. 
+
+1c_run_1: Take the beacon back to the lander.

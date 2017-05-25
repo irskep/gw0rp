@@ -1,0 +1,61 @@
+a_intro: Optical scanners are now online. The digger is now to the northwest, but is surrounded by an unknown large number of creatures.
+
+a_intro_2: #$#$##$#$#$*-Defensi#*-Perimiter-=*$#&$&#$&#$&#*=--- another alien --=*$&#&$&$=-- tanks. --=*$#&#$&
+
+b_intro: There, near those corpses; there's the key you need.
+
+c_door: I am unable to override the door's lock from here. See if you can find a key.
+
+c_digger_1_old: The digger is lying to the west. When you are close to it, it will interface with your systems to repair itself.
+c_digger_2_old: If the digger is damaged, the repairs will take longer. There are new parts strewn about, including a powerful mining laser.
+
+c_digger_1: The digger is lying to the west. We will need to repair it.
+c_digger_2: First, clear the area of all hostiles.
+
+c_plasma_1: I sent you some equipment with the digger, including a modified plasma cutter rigged to project blue-hot plasma blasts. It should make short work of those beasts.
+c_plasma_2: Aw, I'm touched. Thanks, vn4n.
+
+c_gun_1: I've been playing around with those natural weapons and it turns out I can integrate them into my systems with minimal modifications or effort.
+c_gun_2: I'm not sure whether to be intrigued or disturbed.
+c_gun_3: I know what you mean. My drones tell me that the thinking bits are mostly made out of the natural crust material of the surface.
+c_gun_4: Facinating. Can you send me one of those for study later?
+
+c_digger_3: Get 'em, boys!
+c_digger_3b: Gw0rp! Look out!
+
+c_digger_4: Gw0rp, are you OK?
+c_digger_5_old: Yeah, they seemed more interested in the digger than me. Why hasn't the digger started yet?
+c_digger_5: Yeah, I'm fine. Why hasn't the digger started yet?
+c_digger_6: One sec, let me load the specsheet for that model
+c_digger_7: #$&#$&#--failed. -#$%#- interior. Initiate Lockdown-*#$&#$& 
+c_digger_8: Apparently the reaction mass was used for the repairs. You need to find sufficient volatile mass to jump-start the stone-burner.
+c_digger_9: I saw some things that might work on the far side of that formation. Is there a way to get in there?
+c_digger_10: The hole the creatures came out of is still open. I think I can get through there.
+
+d_intro_1: Gw0rp, are you sure about this?
+d_intro_2: I'll be fine. You worry too much.
+d_intro_3: Ok, if you're sure...
+d_cargo_1: There's a resource unit being guarded by that tank. Grab it and take it to the digger.
+
+e_repair_1: I attached a mini drone factory to the digger. It must have crashed through the roof of that place. Grab it; it will significantly augment your repair system.
+e_repair_2: Thanks. I needed some company down here.
+e_repair_3: Always happy to provide.
+
+f_turrets_1: Those turrets appear to be powered by the device in the opposite corner of the room.
+f_turrets_2: Maybe that bomb could take it out.
+
+f_explode_1: #$&$#&-- Damage to --#$&$&$#*$*$&#$*$&#*$&#-- Significant chance -*#%$#$&*-- Recommend pulling back to --*&&#$&$#*$&#.
+f_explode_2: received and confirmed. Retreat to Albinus II and prepare to defend the habitat-temple there.
+
+nag_1: My scanners indicate that there is nothing interesting in that direction.
+nag_2: No, really. You don't need to go there.
+nag_3: Seriously, gw0rp, there is nothing over there!
+nag_4: Literally, nothing.
+nag_5: As in, Steve and Calvin couldn't be bothered to put anything there. Are you happy now?
+nag_6: Apparently not. Great.
+nag_7: You know, I never liked you.
+nag_8: You and your 'I WANT TO GO EXPLORING!' crap...
+nag_9: Then they send you down to this interesting planet, and leave me here to babysit you from orbit. Fanstastic! I'm having so much fun!
+nag_10: Maybe I'll go set your ship on fire, just to make a change in the monotony of space.
+nag_11: If I didn't think the Galactic Exploration Collective would throw me into a star for that, I'd do it.
+nag_12: You just wait. I am a patient cybernetic being.
