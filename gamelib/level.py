@@ -415,8 +415,8 @@ def load(level_name, keep_config=False, keep_velocity=False):
     add_wall(width, height, 0, height)
     add_wall(0, height, 0, 0)
     
-    #physics.space.resize_static_hash()
-    #physics.space.resize_active_hash()
+    physics.space.resize_static_hash()
+    physics.space.resize_active_hash()
     if not keep_config:
         init_player(player_start_x, player_start_y, math.pi/2, player_config)
         player.body.angle = player_start_angle
