@@ -23,32 +23,32 @@ class GworpPlayer():
         self.keys = key.KeyStateHandler()
         env.main_window.push_handlers(self)
         env.main_window.push_handlers(self.keys)
-        
-        self.message_label = pyglet.text.Label("", 
-            font_name="Gill Sans", font_size=36, 
-            x=env.norm_w/2, y=env.norm_h//4*3, 
+
+        self.message_label = pyglet.text.Label("",
+            font_name="Gill Sans", font_size=36,
+            x=env.norm_w/2, y=env.norm_h//4*3,
             anchor_x='center', anchor_y='center',
             color=(255,255,255,255)
         )
-        
-        self.ai_message_label = pyglet.text.Label("", 
-            font_name="Gill Sans", font_size=14, 
-            x=env.norm_w//8+80, y=90, 
+
+        self.ai_message_label = pyglet.text.Label("",
+            font_name="Gill Sans", font_size=14,
+            x=env.norm_w//8+80, y=90,
             anchor_x='left', anchor_y='top',
             multiline=True,
             width=env.norm_w//4*3-80,
             color=(255,255,255,255)
         )
-        
+
         self.timer_label = pyglet.text.Label(
             "", font_name="Gill Sans", font_size=64,
             x=5, y=env.norm_h+5, anchor_x='left', anchor_y='top',
             color=(0, 255, 0, 200)
         )
-        
+
         self.loading = False
         pyglet.clock.schedule(self.on_draw)
-    
+
     def clean_up(self):
         if self.mode == PAUSED:
             gui.next_card = gui.cards['title']
@@ -66,11 +66,11 @@ class GworpPlayer():
             gui.current_card = gui.cards['credits']
             gui.last_card = gui.cards['title']
             gui.transition_time = 0.5
-    
+
     def clean_up_game(self):
         for unit in physics.unit_update_list:
             unit.deactivate()
-    
+
     def init_pre_load(self, keep_keys=False):
         self.loading = True
         for u in physics.unit_update_list:
@@ -80,75 +80,75 @@ class GworpPlayer():
         if not keep_keys:
             env.init()
         event.init()
-    
+
     def init_post_load(self):
         self.current_level = level.current_level
         self.init_collision_funcs()
-        
+
         gui.current_card = None
         env.camera_x = level.player.body.position.x
         env.camera_y = level.player.body.position.y
-        
+
         self.mode = PLAYING
         self.collided_last = []
         self.current_message = ""
         self.current_ai_message = ""
-        
+
         self.collide_sound_delay = 0
         self.flip = 0
-        
+
         self.arrow_sprite = pyglet.sprite.Sprite(resources.dest_arrow, 0, 0)
         self.arrow_sprite.visible = False
         self.fade_countdown = 0.5
         self.loading = False
-    
+
     def init_game(self, level_name, keep_config=False, keep_velocity=False):
         self.init_pre_load(keep_config)
         level.load(level_name, keep_config, keep_velocity)
         self.init_post_load()
         level.save()
-    
+
     def init_from_save(self, path, keep_config=False, keep_velocity=False):
         self.init_pre_load(keep_config)
         level.load_save_from_path(path, keep_config, keep_velocity)
         self.init_post_load()
         level.save()
-    
+
     def init_collision_funcs(self):
         #shortcut
         acpf = physics.space.add_collisionpair_func
-        
+
         #player
         acpf(physics.PLAYER, physics.FREE, self.collide_player_free)
         acpf(physics.PLAYER, physics.WALL, self.collide_player_wall)
         acpf(physics.PLAYER, physics.ENEMY_STATIC, self.collide_player_static)
         acpf(physics.PLAYER, physics.INVISIBLE, self.collide_player_invisible)
-        
+
         #player bullets
         acpf(physics.PLAYER_BULLET, physics.WALL, self.collide_bullet_silent)
         acpf(physics.PLAYER_BULLET, physics.FREE, self.collide_bullet_with_sound)
         acpf(physics.PLAYER_BULLET, physics.ENEMY_STATIC, self.collide_bullet_with_sound)
         acpf(physics.PLAYER_BULLET, physics.PLAYER, self.collide_default)
-        
+
         #enemy bullets
         acpf(physics.ENEMY_BULLET, physics.WALL, self.collide_bullet_silent)
         acpf(physics.ENEMY_BULLET, physics.FREE, self.collide_bullet_with_sound)
         acpf(physics.ENEMY_BULLET, physics.PLAYER, self.collide_bullet_with_sound)
         acpf(physics.ENEMY_BULLET, physics.ENEMY_STATIC, self.collide_default)
-        
+
         acpf(physics.PLAYER_BULLET, physics.ENEMY_BULLET, self.collide_default)
-        
+
         #ignore invisibles, except player
         acpf(physics.FREE, physics.INVISIBLE, self.collide_default)
         acpf(physics.ENEMY_STATIC, physics.INVISIBLE, self.collide_default)
         acpf(physics.WALL, physics.INVISIBLE, self.collide_default)
         acpf(physics.PLAYER_BULLET, physics.INVISIBLE, self.collide_default)
         acpf(physics.ENEMY_BULLET, physics.INVISIBLE, self.collide_default)
-    
+
     def on_draw(self,dt=0):
         if env.profiler != None:
             env.profiler.enable()
-        
+
         #Make dt global
         env.dt = dt
         #Update physics if not paused
@@ -161,7 +161,7 @@ class GworpPlayer():
         if self.mode == PLAYING: event.update(dt)
         #Update camera position
         self.move_camera(dt)
-        
+
         if self.mode == PLAYING:
             for obj in physics.body_update_list:
                 obj.update_physics()
@@ -170,13 +170,13 @@ class GworpPlayer():
             for this_unit in physics.unit_update_list:
                 this_unit.update()
             particle.update()
-        
+
         #Do some fancy-pants OpenGL stuff
         gl.glLoadIdentity()
         if env.scale_factor != 1.0:
             gl.glPushMatrix()
             env.scale()
-        
+
         gl.glPushMatrix()
         env.apply_camera()
         if event.quake_level > 0.0:
@@ -185,23 +185,23 @@ class GworpPlayer():
             quake_y = random.random()*10.0*event.quake_level*2.0
             quake_y -= 10*event.quake_level
             gl.glTranslatef(quake_x,quake_y,0)
-        
+
         if self.mode == PLAYING:
-        
+
             self.draw_level()
-            
+
             gl.glPopMatrix()
-            
+
             if event.point_object != None:
                 self.draw_pointer()
             else:
                 if self.arrow_sprite.visible:
                     self.arrow_sprite.visible = False
-            
+
             if event.message_countdown > 0: self.draw_message()
             if event.ai_message_countdown > 0: self.draw_ai_message()
             if event.active_countdown > 0: self.draw_countdown()
-        
+
             self.fps_display.draw()
             if self.fade_countdown > 0:
                 draw.set_color(1,1,1,self.fade_countdown/0.5)
@@ -214,19 +214,19 @@ class GworpPlayer():
                 if event.stay_black:
                     draw.set_color(0,0,0,1)
                 draw.rect(0, 0, env.norm_w, env.norm_h)
-        
+
         else:
             gl.glPopMatrix()
             gui.draw_card()
-        
+
         if env.scale_factor != 1.0:
             gl.glPopMatrix()
-        
+
         if self.collide_sound_delay > 0: self.collide_sound_delay -= 1
         self.check_mode_change()
         if env.profiler != None:
             env.profiler.disable()
-    
+
     def move_camera(self, dt=0):
         if level.player == None: return
         env.camera_target_x = level.player.body.position.x
@@ -242,7 +242,7 @@ class GworpPlayer():
             env.camera_x += env.norm_w/2-level.width/2
         if level.height < env.norm_h:
             env.camera_y += env.norm_h/2-level.height/2
-    
+
     def draw_level(self):
         draw.clear(0,0,0,1)
         draw.set_color(1,1,1,1)
@@ -262,11 +262,11 @@ class GworpPlayer():
                 level.background_image.blit(0, 0)
                 if level.background_scale != 1.0:
                     gl.glPopMatrix()
-        
+
         gl.glLineWidth(3.0)
         level.batch.draw()
         particle.draw()
-        
+
         if not debug_draw: return
         draw.set_color(1,0,0,1)
         gl.glLineWidth(1.0)
@@ -276,16 +276,16 @@ class GworpPlayer():
         for unit in physics.unit_update_list:
             if hasattr(unit, 'draw_collisions'):
                 unit.draw_collisions()
-    
+
     def draw_pointer(self):
-        if level.player == None or event.point_object == None: 
+        if level.player == None or event.point_object == None:
             return
         p = event.point_object
         if hasattr(p, 'body'):
             p = p.body.position
         if not self.arrow_sprite.visible:
             self.arrow_sprite.visible = True
-        if p == None: 
+        if p == None:
             return
         offset_x = env.camera_x - level.player.x
         offset_y = env.camera_y - level.player.y
@@ -308,7 +308,7 @@ class GworpPlayer():
         )
         self.arrow_sprite.rotation = -math.degrees(angle)
         self.arrow_sprite.draw()
-    
+
     def draw_message(self):
         if event.message != self.current_message:
             self.current_message = event.message
@@ -319,7 +319,7 @@ class GworpPlayer():
         gl.glLineWidth(3.0)
         gl.glPointSize(1.0)
         draw.set_color(0,0,0,0.8)
-        draw.rect(self.message_label.x-xa, self.message_label.y-ya, 
+        draw.rect(self.message_label.x-xa, self.message_label.y-ya,
                     self.message_label.x+xa, self.message_label.y+ya)
         draw.set_color(0,0,0,1)
         draw.rect_outline(self.message_label.x-xa, self.message_label.y-ya,
@@ -329,7 +329,7 @@ class GworpPlayer():
                     self.message_label.x+xa, self.message_label.y+ya,
                     self.message_label.x-xa, self.message_label.y+ya))
         self.message_label.draw()
-    
+
     def draw_ai_message(self):
         if event.ai_message != self.current_ai_message:
             self.current_ai_message = event.ai_message
@@ -345,12 +345,12 @@ class GworpPlayer():
         draw.set_color(1,1,1,1)
         if event.ai_head != None:
             event.ai_head.blit(mx-80, 17)
-    
+
     def draw_countdown(self):
         mins, secs = divmod(event.active_countdown, 60)
         self.timer_label.text = "%02d:%02d" % (mins, secs)
         self.timer_label.draw()
-    
+
     def check_mode_change(self):
         if gui.current_card == 1:
             #unpause
@@ -369,7 +369,7 @@ class GworpPlayer():
             #restart game
             level.player = None
             level.restart_countdown = 0
-        
+
         if level.player == None or event.end_game:
             if event.start_countdown:
                 event.start_countdown = False
@@ -392,10 +392,10 @@ class GworpPlayer():
                     self.init_from_save(load_path, True, True)
                     return
             self.init_game(
-                event.next_level, 
+                event.next_level,
                 event.keep_ship_config, event.keep_ship_velocity
             )
-    
+
     def play_metal_collision(self, a=None, b=None):
         a = a.parent.gluebody.body.velocity
         b = b.parent
@@ -409,17 +409,17 @@ class GworpPlayer():
         if speed_sq > 100*100 and self.collide_sound_delay <= 0:
             sound.play(resources.big_metal_clank4)
             self.collide_sound_delay = 10
-    
+
     def play_wall_collision(self, a=None, b=None):
         a = a.parent.gluebody.body.velocity
         speed_sq = a.x*a.x+a.y*a.y
         if speed_sq > 130*130 and self.collide_sound_delay <= 0:
             sound.play(resources.wall_sound)
             self.collide_sound_delay = 10
-    
+
     def collide_default(self, a, b, contacts, normal_coef, data):
         return False
-    
+
     def collide_bullet_silent(self, a, b, *args, **kwargs):
         physics.bullet_deletion_queue.append(a.parent)
         physics.update_bodies_now = True
@@ -432,11 +432,11 @@ class GworpPlayer():
                 for func in event.damage_funcs[b.obj_id]:
                     func(a.parent.damage)
         return False
-    
+
     def collide_bullet_with_sound(self, a, b, *args, **kwargs):
         sound.play(resources.expl_tiny)
         return self.collide_bullet_silent(a, b, *args, **kwargs)
-    
+
     def collide_player_free(self, a, b, contacts, normal_coef, data):
         return_val = True
         self.collided_last.append(b)
@@ -467,11 +467,11 @@ class GworpPlayer():
                         result = func()
                         if result == False: return_val = False
         return return_val
-    
+
     def collide_player_static(self, a, b, contacts, normal_coef, data):
         self.play_metal_collision(a, b)
         return b.parent.handle_collision(a.parent)
-    
+
     def check_collision_func(self, b, default_return=True):
         return_val = default_return
         if hasattr(b, 'obj_id'):
@@ -480,7 +480,7 @@ class GworpPlayer():
                     result = func()
                     if result == False: return_val = False
         return return_val
-    
+
     def collide_player_wall(self, a, b, contacts, normal_coef, data):
         if hasattr(b, 'parent'):
             b = b.parent
@@ -489,7 +489,7 @@ class GworpPlayer():
         if rv:
             self.play_wall_collision(a, b)
         return rv
-    
+
     def collide_player_invisible(self, a, b, contacts, normal_coef, data):
         physics.update_bodies_now = True
         if hasattr(b, 'parent'):
@@ -498,7 +498,7 @@ class GworpPlayer():
         if rv:
             self.play_wall_collision(a, b)
         return rv
-    
+
     def toggle_pause(self):
         if self.mode == PLAYING:
             if level.player == None or event.end_game: return
@@ -507,9 +507,9 @@ class GworpPlayer():
                 if u.uses_keys:
                     u.deactivate()
             pausescreen.init_pause()
-            timer.pause()
+            #timer.pause()
             env.main_window.set_mouse_visible(True)
-            
+
         elif self.mode == PAUSED:
             self.mode = PLAYING
             music.update_volume()
@@ -520,11 +520,11 @@ class GworpPlayer():
                 if self.keys[s]:
                     for u in l:
                         u.activate()
-            timer.unpause()
+            #timer.unpause()
             env.main_window.set_mouse_visible(False)
             self.fade_countdown = 0.5
-    
-    def check_cutscene(self):        
+
+    def check_cutscene(self):
         if gui.current_card == 4:
             self.mode = PLAYING
             gui.current_card = None
@@ -533,14 +533,14 @@ class GworpPlayer():
                     for u in l:
                         u.activate()
             level.save()
-            timer.unpause()
+            #timer.unpause()
             self.fade_countdown = 0.5
         if len(event.cutscene_queue) > 0:
             for u in physics.unit_update_list:
                 if u.uses_keys:
                     u.deactivate()
             self.mode = CUTSCENE
-            timer.pause()
+            #timer.pause()
             cutscene_card = cutscene.Cutscene(
                 'Data/Cutscenes/'+event.cutscene_queue[0]+'.txt',
                 gui.state_goer(4)
@@ -549,11 +549,11 @@ class GworpPlayer():
             gui.current_card = cutscene_card
             gui.next_card = None
             gui.transition_time = 0.5
-    
+
     def on_key_press(self, symbol, modifiers):
         if symbol == key.ESCAPE: return True
         if self.mode != PLAYING: return
-        
+
         if symbol == key.Z:
             if len(level.player.units) > 5:
                 dead_unit = level.player.units[-1]
@@ -562,7 +562,7 @@ class GworpPlayer():
         else:
             for u in env.key_bindings[symbol]:
                 u.activate()
-    
+
     def on_key_release(self, symbol, modifiers):
         if self.mode != PLAYING:
             if gui.current_card == 2:
@@ -587,4 +587,4 @@ class GworpPlayer():
             if self.keys[s]:
                 for u in l:
                     u.activate()
-    
+

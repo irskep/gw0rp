@@ -18,6 +18,7 @@ class Cutscene(object):
                 p = ':'.join(tup[1:]).lstrip()
                 message_group.append((m, p))
         self.message_groups.append(message_group)
+        print(self.message_groups)
         f.close()
         
         self.char_delay_default = 0.05
@@ -158,7 +159,7 @@ class Cutscene(object):
         else:
             this_text = self.msg_strings[self.msg_num]
             this_label.text = this_text[0:self.text_position]
-            if this_label.text[-1] == '.':
+            if this_label.text and this_label.text[-1] == '.':
                 self.countdown += self.char_delay*3
     
     def next_message(self):
@@ -166,8 +167,11 @@ class Cutscene(object):
         self.text_position = -1
         self.msg_num += 1
         self.countdown = self.msg_delay
-        self.sender_sprites[self.msg_num].visible = True
-        self.sender_labels[self.msg_num].text = self.sender_names[self.msg_num]
+        try:
+            self.sender_sprites[self.msg_num].visible = True
+            self.sender_labels[self.msg_num].text = self.sender_names[self.msg_num]
+        except IndexError:
+            pass
         self.update_text()
     
     def draw(self):
@@ -177,13 +181,19 @@ class Cutscene(object):
             self.countdown -= env.dt
             if self.countdown <= 0:
                 self.update_text()
-                sound = resources.text_sounds[self.sender_names[self.msg_num]]
-                if self.labels[self.msg_num].text[-1] != ' ':
-                    player = pyglet.media.ManagedSoundPlayer()
-                    player.pause()
-                    player.queue(sound)
-                    player.volume = settings.sound_volume*0.1
-                    player.play()
+                try:
+                    sound = resources.text_sounds[self.sender_names[self.msg_num]]
+                except IndexError:
+                    pass
+                try:
+                    if self.labels[self.msg_num].text[-1] != ' ':
+                        player = pyglet.media.ManagedSoundPlayer()
+                        player.pause()
+                        player.queue(sound)
+                        player.volume = settings.sound_volume*0.1
+                        player.play()
+                except IndexError:
+                    pass
                 self.countdown += self.char_delay
     
     def on_mouse_release(self, x, y, button, modifiers):
