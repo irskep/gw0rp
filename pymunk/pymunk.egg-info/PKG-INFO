@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pymunk
+Version: 0.8.1
+Summary: A wrapper for the 2d physics library Chipmunk
+Home-page: http://pymunk.googlecode.com
+Author: Victor Blomqvist
+Author-email: vb@viblo.se
+License: MIT License
+Description: pymunk is wrapper for the 2d rigid body physics library Chipmunk
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries

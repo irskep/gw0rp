@@ -1,0 +1,3 @@
+pymunk/chipmunk.dll
+pymunk/libchipmunk.so
+pymunk/libchipmunk.dylib
