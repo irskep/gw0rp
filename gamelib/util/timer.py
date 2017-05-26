@@ -55,4 +55,4 @@ def pause(): pyglet.clock.get_default().pause()
 def unpause(): pyglet.clock.get_default().unpause()
 def paused(): return pyglet.clock.get_default().paused
 
-pyglet.clock.set_default(GameClock())
+#pyglet.clock.set_default(GameClock())

@@ -64,10 +64,7 @@ def draw_card():
     global last_card, current_card, next_card, transition_time
     draw.set_color(1,1,1,1)
     draw.rect(0, 0, env.norm_w, env.norm_h)
-    try:
-        current_card.draw()
-    except:
-        pass
+    current_card.draw()
     if transition_time > 0:
         if next_card != None:
             a = (1.0-transition_time/0.5)

@@ -48,7 +48,6 @@ def init(step=5, run=True, grav=(0.0,0.0)):
     update_bodies_now = False
     gravity = grav
     
-    pymunk.init_pymunk()
     space = pymunk.Space()
     space._space.contents.elasticIterations = 5
     space.gravity = Vec2d(grav)
