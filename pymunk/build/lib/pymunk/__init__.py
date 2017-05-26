@@ -565,11 +565,12 @@ class Circle(Shape):
         return ct.cast(self._shape, ct.POINTER(cp.cpCircleShape)).contents.r
     radius = property(_get_radius, _set_radius)
     
+    def _set_center (self, c):
+        ct.cast(self._shape, ct.POINTER(cp.cpCircleShape)).contents.c = c
     def _get_center (self):
         return ct.cast(self._shape, ct.POINTER(cp.cpCircleShape)).contents.c
-    def _set_center (self, val):
-        self._body.position = (val[0] + self.radius, val[1] + self.radius)
-    center = property(_get_center, _set_center, doc="""Center. (body space coordinates)""")
+    #center = property(_get_center, doc="""Center. (body space coordinates)""")
+    center = property(_get_center, _set_center)
 
 class Segment(Shape):
     """A line segment shape between two points
